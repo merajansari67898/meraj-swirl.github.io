@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Share+Tech&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: lato;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    transition: 0.8s all ease;
+    border: 2px solid salmon;
+}
+img:hover{
+    transform: rotate(360deg);
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    background: #37ecba;
+    color: black;
+    font-size: 22px;
+    transition: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+button:hover{
+    transform: translateY(-10px);
+}
+
+span{
+    color: blue;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+footer{
+    background: black;
+    color: white;
+}
+
+footer span{
+        display: flex;
+
+    color: rgb(240, 9, 113);
+}
+
+footer p{
+    text-align: center;
+}
